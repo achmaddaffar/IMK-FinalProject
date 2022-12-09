@@ -4,7 +4,10 @@ body {
     width: 100vw;
     height: 100vh;
     background-image: radial-gradient(circle at bottom right, #A28CF9 2%, #8187E1 12.25%, #6B99E7 24.53%, #ABDBFF 42.58%, #FFFFFF 57.7%);
-    background-repeat: repeat;
+}
+
+.group {
+    margin: 6vh;
 }
 
 *{
@@ -25,16 +28,38 @@ body {
 
 .title {
     font-size: 108px;
+    line-height: 105px;
+    letter-spacing: -0.07em;
+    background: conic-gradient(from 92.25deg at 34.62% 69.18%, rgba(173, 218, 252, 0.992424) -76.11deg, #8E93DC 28.4deg, rgba(95, 152, 234, 0.99544) 74.88deg, rgba(173, 218, 252, 0.992424) 283.89deg, #8E93DC 388.4deg);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .description {
     font-size: 34px;
+    line-height: 38px;
+    letter-spacing: -0.07em;
+    color: #73A0E6
+}
+
+.text {
+    font-size: 16px;
+    line-height: 20px;
+    color: #8E93DC;
+}
+
+input {
+    width: 300px;
+    height: 45px;
+    left: 103px;
+    top: 532px;
+    background: #8E93DC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .buttons {
     font-size: 16px;
-}
-
-.group1 {
-    margin: 6vh;
+    line-height: 20px;
+    color: #FFFFFF;
 }
