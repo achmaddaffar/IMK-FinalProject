@@ -3,7 +3,8 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: radial-gradient(circle at bottom right, #A28CF9 2%, #8187E1 12.25%, #6B99E7 24.53%, #ABDBFF 42.58%, #FFFFFF 57.7%);
+    background-image: radial-gradient(circle at bottom right, #A28CF9 2%, #8187E1 12.25%, #6B99E7 24.53%, #ABDBFF 42.58%, #FFFFFF 57.7%);
+    background-repeat: repeat;
 }
 
 *{
@@ -35,9 +36,5 @@ body {
 }
 
 .group1 {
-
-    margin-top: 6vh;
-    margin-left: 14vw;
-    margin-right: 0vh;
-    margin-bottom: 0vh;
+    margin: 6vh;
 }
