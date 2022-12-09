@@ -17,14 +17,27 @@
 <body>
 
     <section id="Main">
+        <!-- Box Card -->
         <div class="container">
-            <form action="homepage.html">
-                <div class="form-group">
-                    <input type="text" class = "form-control" placeholder="Username">
-                    <input type="password" class = "form-control" placeholder="Password">
+            <div class="row">
+                <!-- Logo -->
+                <div class="col-sm-12 col-lg-4">
+                    <p class="title font1">Smart ID</p>
+                    <p class="description font2">Sign in to start managing documents</p>
                 </div>
-                <input type="submit" class = "btn btn-primary" value = "Login">
-            </form>
+                <!-- Login -->
+                <div class="col-sm-12 col-lg-6">
+                    <form action="homepage.html">
+                        <div class="row">
+                            <input type="text" placeholder="NIK">
+                        </div>
+                        <div class="row">
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <input type="submit" class="button" value = "Login">
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
