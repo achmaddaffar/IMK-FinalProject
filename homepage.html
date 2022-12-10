@@ -17,60 +17,63 @@
 <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-primary bg-light fixed-top">
-        <div class="container-fluid">
-            <!-- Logo -->
-            <a class="navbar-brand" href="#">Smart ID</a>
-            <!--  -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Navbar Content -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <!-- About -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="homepage.html#About">About</a>
-                    </li>
-                    <!-- Documents -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="homepage.html#Documents">Documents</a>
-                    </li>
-                    <!-- Contact Us -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="homepage.html#Contact Us">Contact Us</a>
-                    </li>
-                    <!-- Profile Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="profile.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="/assets/DummyProfilePic.svg" alt="">
-                        </a>
-                        <!-- Dropdown Menu -->
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="profile.html#My Account">My Account</a></li>
-                            <li><a class="dropdown-item" href="profile.html#Inbox">Inbox</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="landing.html">Log Out</a></li>
-                        </ul>
-                    </li>
-                </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-primary bg-light fixed-top">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="homepage.html#About">Smart ID</a>
+                <!--  -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar Content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- About -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage.html#About">About</a>
+                        </li>
+                        <!-- Documents -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage.html#Documents">Documents</a>
+                        </li>
+                        <!-- Contact Us -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage.html#Contact Us">Contact Us</a>
+                        </li>
+                        <!-- Profile Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="profile.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="/assets/DummyProfilePic.svg">
+                                <label>Profile</label>
+                            </a>
+                            <!-- Dropdown Menu -->
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="profile.html#My Account">My Account</a></li>
+                                <li><a class="dropdown-item" href="profile.html#Inbox">Inbox</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="landing.html">Log Out</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>
+    
     <br><br><br><br><br>
 
     <!-- About -->
-    <section id=""About>
-        <div class="container">
+    <section id="About">
+        <div class="container bubble">
             <div class="row">
                 <!-- Title -->
-                <div class="col-sm-12 col-md-6">
-                    <h3>About Us</h3>
-                    <h3>What is Smart Id?</h3>
+                <div class="col-sm-12 col-md-5">
+                    <h2>About</h2>
+                    <h2>What is Smart Id?</h2>
                 </div>
                 <!-- Description -->
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-7">
                     <p class="">Smart ID is the new (smart) way to manage your National Documents. 
                         All features are created to ensure that all citizens can manage their documents comfortably and safely. 
                         We have implemented a multi-layered security system to ensure protection of users’ personal data.</p>
@@ -79,22 +82,21 @@
         </div>
     </section>
 
-    <br><br><br><br><br>
-
     <!-- Smart ID -->
     <section id="SmartID">
-
+        <div class="container text-center">
+            <img src="/assets/DummyCard.svg" alt="">
+        </div>
     </section>
-
-    <br><br><br><br><br>
 
     <!-- Documents -->
     <section id="Documents">
-        <h3 class="text-center">Documents</h3>
-        <div class="container">
+        <div class="container bubble">
+            <h1 class="text-center">Documents</h1>
+            <br><br>
             <!-- First Row -->
             <div class="row">
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -104,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -114,7 +116,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -123,7 +125,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -132,30 +134,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Second Row -->
-            <div class="row">
-                <div class="col-sm-12 col-md-3">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title m-1">Tambah</h5>
-                            <p class="card-text m-1">Tambahkan Dokumen</p>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-3">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Tambah</h5>
-                            <p class="card-text">Tambahkan Dokumen</p>
-    
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -164,7 +143,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
@@ -181,8 +160,9 @@
 
     <!-- Contact Us -->
     <section id="Contact Us">
-        <h3 class="text-center">Contact Us</h3>
-        <div class="container">
+        <div class="container bubble">
+            <h1 class="text-center">Contact Us</h1>
+            <br><br>
             <!-- Form -->
             <div class="col-sm12 col-md-12">
                 <div class="form">
@@ -197,13 +177,47 @@
         </div>
     </section>
 
-    <!-- Credit -->
-    <section id="Credit">
-        <div class="container">
-            
+    <br><br><br><br><br>
+
+    <!-- Meet The Team -->
+    <section id="Meet The Team">
+        <div class="container bubble">
+            <h1 class="text-center">Meet The Team</h1>
+            <br><br>
+            <div class="row">
+                <!-- Programmer -->
+                <div class="col-sm-12 col-md-6 bubble">
+                    <h2 class="text-center">Programmer</h2>
+                    <img src="/assets/Daffa.svg">
+                    <p>Achmad Daffa Rabbani</p>
+                    <img src="/assets/Yehezkiel.svg">
+                    <p>Yehezkiel Saragih</p>
+                </div>
+                <!-- Designer -->
+                <div class="col-sm-12 col-md-6 bubble">
+                    <h2 class="text-center">Designer</h2>
+                    <p>M Farrel Rabiultsani U A</p>
+                    <img src="/assets/Farrel.svg">
+                    <p>Raditya Atmaja</p>
+                    <img src="/assets/Yehezkiel.svg">
+                </div>
+            </div>
         </div>
     </section>
-    
+
+    <br><br><br><br><br>
+
+    <!-- Social Media -->
+    <footer>
+        <section id="Social Media">
+            <div class="container bubble">
+                
+            </div>
+        </section>
+    </footer>
+
+    <br><br><br><br><br>
+
     <!-- Js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
