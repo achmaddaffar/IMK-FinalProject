@@ -1,6 +1,6 @@
 body {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(360deg, rgba(162, 140, 249, 0.72) 0%, #8187E1 30.82%, rgba(107, 153, 231, 0.97) 66.83%, #82BBE6 100%);
 }
 
