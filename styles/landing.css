@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Iceland&family=Lexend+Deca&display=swap');
 
 body {
-    width: 100%;
+    /* width: 100%;
     height: 100%;
     padding-top: 13.5%;
     padding-left: 15%;
-    padding-right: 15%;
-    background: radial-gradient(circle at bottom right, #A28CF9 2%, #8187E1 12.25%, #6B99E7 24.53%, #ABDBFF 42.58%, #FFFFFF 57.7%);
+    padding-right: 15%; */
+    background: radial-gradient(circle at bottom right, #A28CF9 2%, #8187E1 12.25%, #6B99E7 24.53%, #ABDBFF 42.58%, #FFFFFF 57.7%) no-repeat center center fixed;
     background-size: cover;
-    position: relative;
-    /* background-image: linear-gradient(360deg, rgba(162, 140, 249, 0.72) 0%, #8187E1 30.82%, rgba(107, 153, 231, 0.97) 66.83%, #82BBE6 100%); */
 }
 
 *{
@@ -44,7 +42,7 @@ body {
     line-height: 38px;
     letter-spacing: -0.07em;
     color: #73A0E6;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 .text {
