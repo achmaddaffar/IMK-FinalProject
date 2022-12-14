@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Iceland&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Lexend+Deca&family=Comfortaa&display=swap');
 
 body {
     background: radial-gradient(circle at bottom right, #A28CF9 2%, #8187E1 12.25%, #6B99E7 24.53%, #ABDBFF 42.58%, #FFFFFF 57.7%) no-repeat center center fixed;
@@ -16,11 +16,11 @@ body {
 }
 
 .font2 {
-    font-family: "Comfortaa";
+    font-family: "Lexend Deca";
 }
 
 .font3 {
-    font-family: "Lexend Deca";
+    font-family: "Comfortaa";
 }
 
 .title {

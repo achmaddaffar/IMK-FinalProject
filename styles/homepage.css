@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Lexend+Deca&family=Comfortaa&display=swap');
+
 body {
-    width: 100vw;
-    height: 100%;
     background-image: linear-gradient(360deg, rgba(162, 140, 249, 0.72) 0%, #8187E1 30.82%, rgba(107, 153, 231, 0.97) 66.83%, #82BBE6 100%);
 }
 
@@ -12,10 +12,18 @@ body {
     border-radius: 30px;
 }
 
-/* .group1 {
-    
+.about-container {
+    max-width: 50%;
 }
 
-.group2 {
-    
-} */
+.font1 {
+    font-family: "Iceland";
+}
+
+.font2 {
+    font-family: "Lexend Deca";
+}
+
+.font3 {
+    font-family: "Comfortaa";
+}
