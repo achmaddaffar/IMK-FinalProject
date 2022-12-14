@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Iceland&family=Lexend+Deca&display=swap');
 
 body {
-    /* width: 100%;
-    height: 100%;
-    padding-top: 13.5%;
-    padding-left: 15%;
-    padding-right: 15%; */
     background: radial-gradient(circle at bottom right, #A28CF9 2%, #8187E1 12.25%, #6B99E7 24.53%, #ABDBFF 42.58%, #FFFFFF 57.7%) no-repeat center center fixed;
     background-size: cover;
 }
