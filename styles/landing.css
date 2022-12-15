@@ -11,19 +11,8 @@ body {
     background-size: cover;
 }
 
-.font1 {
-    font-family: "Iceland";
-}
-
-.font2 {
-    font-family: "Lexend Deca";
-}
-
-.font3 {
-    font-family: "Comfortaa";
-}
-
 .title {
+    font-family: "Iceland";
     font-size: 108px;
     line-height: 105px;
     letter-spacing: -0.07em;
@@ -33,6 +22,7 @@ body {
 }
 
 .description {
+    font-family: "Comfortaa";
     font-size: 34px;
     line-height: 38px;
     letter-spacing: -0.07em;
@@ -41,6 +31,7 @@ body {
 }
 
 .text {
+    font-family: "Lexend Deca";
     font-size: 16px;
     line-height: 20px;
     margin: 10px;
@@ -53,15 +44,13 @@ input {
     height: 45px;
     left: 103px;
     top: 532px;
-    background: #8E93DC;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-}
-
-.buttons {
+    font-family: "Lexend Deca";
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+    background: #8E93DC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
 }
 
 .form-group {
