@@ -11,6 +11,10 @@ body {
     background-size: cover;
 }
 
+.container {
+    margin-top: 7.5%;
+}
+
 .title {
     font-family: "Iceland";
     font-size: 108px;
