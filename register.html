@@ -19,22 +19,34 @@
     <section id="Main">
         <!-- Box Card -->
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <!-- Logo -->
-                <div class="col-sm-12 col-lg-4">
+                <div class="col-sm-12 col-lg-5">
                     <p class="title font1 text-center">Smart ID</p>
-                    <p class="description font2 text-center">Sign in to start managing documents</p>
+                    <p class="description font2 text-center">Register now to start managing your documents</p>
                 </div>
                 <!-- Login -->
-                <div class="col-sm-12 col-lg-6">
+                <div class="col-sm-12 col-lg-7">
                     <form action="homepage.html">
+                        <div class="row">
+                            <input type="text" placeholder="Full Name">
+                        </div>
                         <div class="row">
                             <input type="text" placeholder="NIK">
                         </div>
                         <div class="row">
-                            <input type="password" placeholder="Password">
+                            <div class="row col-6">
+                                <input type="text" placeholder="Gender">
+                                <input type="tel" placeholder="Phone Number">
+                                <input type="password" placeholder="Password">
+                            </div>
+                            <div class="row col-6">
+                                <input type="date" placeholder="Date of Birth">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Confirm Password">
+                            </div>
                         </div>
-                        <input type="submit" class="button" value = "Login">
+                        <input type="submit" class="button" value = "Register">
                     </form>
                 </div>
             </div>
