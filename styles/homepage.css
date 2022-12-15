@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Lexend+Deca&family=Comfortaa&display=swap');
 
+*{
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: linear-gradient(360deg, #A28CF9 72%, #8187E1 30.82%, #6B99E7 97%, #82BBE6 100%);
 }
@@ -22,14 +28,49 @@ body {
     max-width: 50%;
 }
 
-.font1 {
+.navbar-brand {
     font-family: "Iceland";
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: -0.07em;
+    background: conic-gradient(from 92.25deg at 34.62% 69.18%, rgba(173, 218, 252, 0.992424) -76.11deg, #8E93DC 28.4deg, rgba(95, 152, 234, 0.99544) 74.88deg, rgba(173, 218, 252, 0.992424) 283.89deg, #8E93DC 388.4deg);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.font2 {
+.nav-link {
     font-family: "Lexend Deca";
+    font-size: 17.5px;
+    line-height: 20px;
+    color: #000000;
 }
 
-.font3 {
-    font-family: "Comfortaa";
+h2 {
+    font-family: "Lexend Deca";
+    text-shadow: 0px 4px 25px rgba(255, 255, 255, 0.6);
+}
+
+.about-title {
+    font-family: "Lexend Deca";
+    color: #FFFFFF;
+}
+
+.about-description {
+    font-family: "Lexend Deca";
+    color: #FFFFFF;
+}
+
+h5 {
+    font-family: "Lexend Deca";
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
