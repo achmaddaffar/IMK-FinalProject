@@ -2,6 +2,7 @@
 
 body {
     background-image: linear-gradient(270deg, rgba(162, 140, 249, 0.72) 0%, #8187E1 30.82%, rgba(107, 153, 231, 0.97) 66.83%, #82BBE6 100%);
+    background-size: cover;
 }
 
 *{
@@ -13,7 +14,8 @@ body {
 
 .container{
     width: 75%;
-    margin-top:30vh;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
     background: rgba(21, 1, 255, 0.1);
     border: 2px solid rgba(255, 255, 255, 0.35);
     box-shadow: -80px 80px 100px rgba(0, 0, 0, 0.35);
