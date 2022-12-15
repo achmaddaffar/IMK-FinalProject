@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Lexend+Deca&family=Comfortaa&display=swap');
 
 *{
+    font-family: "Lexend Deca";
     font-weight: 400;
+    color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
@@ -13,6 +15,7 @@ body {
 
 main {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 section {
@@ -59,10 +62,11 @@ section {
     color: #000000;
 }
 
-h2 {
+.main-header {
     font-family: "Lexend Deca";
     margin-top: 15px;
     text-shadow: 0px 4px 25px rgba(255, 255, 255, 0.6);
+    color: #000000;
 }
 
 .about-title, .about-description {
@@ -70,7 +74,7 @@ h2 {
     color: #FFFFFF;
 }
 
-h5 {
+.card-title {
     font-family: "Lexend Deca";
     color: #FFFFFF;
 }
@@ -86,6 +90,25 @@ a {
 
 input {
     font-family: "Lexend Deca";
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgba(23, 56, 120, 0.7);;
+    border-radius: 10px;
+}
+
+.data-form {
+    height: 45px;
+}
+
+.message-form {
+    height: 80px;
+}
+
+::placeholder {
+    font-family: "Lexend Deca";
+    padding: 5px;
+    color: #FFFFFF;
 }
 
 .button {
@@ -112,7 +135,13 @@ input {
     color: #D998FC;
 }
 
-h3 {
+.contact-text3{
+    font-family: "Lexend Deca";
+    font-size: 30px;
+    color: #000000;
+}
+
+.team {
     font-family: "Comfortaa";
     color: #FFFFFF;
 }

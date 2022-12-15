@@ -70,7 +70,7 @@
                 <div class="row">
                     <!-- Title -->
                     <div class="col-sm-12 col-md-5 p-4">
-                        <h2>About</h2>
+                        <h2 class="main-header">About</h2>
                         <h3 class="about-title">What is Smart ID?</h3>
                     </div>
                     <!-- Description -->
@@ -83,7 +83,7 @@
                             We have implemented a multi-layered security system to ensure protection of users’ personal data.
                         </p> 
                     </div>
-                </div
+                </div>
             </div>
         </section>
 
@@ -97,7 +97,7 @@
         <!-- Documents Card -->
         <section id="Documents" class="mx-4">
             <div class="container outer-bubble">
-                <h2 class="text-center">Documents</h2>
+                <h2 class="text-center main-header">Documents</h2>
                 <div class="row p-3">
                     <div class="col-sm-12 col-md-6 col-lg-4 mb-2">
                         <div class="card inner-bubble text-center p-2">
@@ -133,7 +133,7 @@
                         <div class="card inner-bubble text-center p-2">
                             <img src="/assets/FileIcon.svg" class="card-img-top">
                             <div class="card-body">
-                                <input type="file" class="form-control">
+                                <input type="file" class="file form-control">
                                 <input type="submit" class="btn button mt-2" value="Tambah">
                             </div>
                         </div>
@@ -163,20 +163,31 @@
         <!-- Contact Us Card -->
         <section id="Contact Us" class="mx-4">
             <div class="container outer-bubble">
-                <h2 class="text-center">Contact Us</h2>
+                <h2 class="main-header text-center">Contact Us</h2>
                 <!-- Form -->
                 <div class="row p-3">
-                    <div class="col-sm12 col-md-6 inner-bubble">
-                        <div class="form">
-                            <!-- Identity -->
-                            <!-- Message -->
+                    <div class="col-sm-12 col-md-6 inner-bubble p-4">
+                        <!-- Identity -->
+                        <div class="form-group">
+                            <h3 class="contact-text3">Identity</h3>
+                            <input type="text" placeholder="Full Name" class="data-form">
+                            <input type="email" placeholder="Email" class="data-form">
+                        </div>
+                        <!-- Message -->
+                        <div class="form-group">
+                            <h3 class="contact-text3">Message</h3>
+                            <input type="text" placeholder="Type your message here ..." class="message-form">
                         </div>
                     </div>    
                     <!-- Information -->
-                    <div class="col-sm12 col-md-6">
+                    <div class="col-sm-12 col-md-6 p-4">
                         <p class="contact-text1"> 
                             Experiencing issues? Dont worry, we are here to help you.
-                            Send us a <span class="contact-text2">message</span> and we will provide <span class="contact-text2">feedback</span> within 
+                            Send us a 
+                            <span class="contact-text2">message</span> 
+                            and we will provide 
+                            <span class="contact-text2">feedback</span> 
+                            within 
                             <span class="contact-text2">2 work days</span>
                         </p>
                     </div>  
@@ -187,15 +198,15 @@
         <!-- The Team Card -->
         <section id="The Team" class="mx-4">
             <div class="container outer-bubble">
-                <h2 class="text-center">Meet The Team</h2>
+                <h2 class="main-header text-center">Meet The Team</h2>
                 <div class="row p-3">
                     <!-- Programmer -->
                     <div class="col-sm-12 col-md-6 my-2">
                         <div class="col-12 inner-bubble p-3">
                             <div class="row mb-3">
-                                <h3 class="text-center mb-5">Programmer</h3>
+                                <h3 class="team text-center mb-5">Programmer</h3>
                                 <div class="col-sm-6 text-center">
-                                    <img src="/assets/Daffa.svg">
+                                    <img src="/assets/Daffa.svg" class="img-fluid">
                                 </div>
                                 <div class="col-sm-6 text-center">
                                     <p class="team-text">Achmad Daffa Rabbani</p>
@@ -203,7 +214,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-6 text-center">
-                                    <img src="/assets/Yehezkiel.svg">
+                                    <img src="/assets/Yehezkiel.svg" class="img-fluid">
                                 </div>
                                 <div class="col-sm-6 text-center">
                                     <p class="team-text">Yehezkiel Saragih</p>
@@ -214,13 +225,13 @@
                     <!-- Designer -->
                     <div class="col-sm-12 col-md-6 my-2">
                         <div class="col-12 inner-bubble p-3">
-                            <h3 class="text-center mb-5">Designer</h3>
+                            <h3 class="team text-center mb-5">Designer</h3>
                         <div class="row mb-3">
                             <div class="col-sm 6 text-center">
                                 <p class="team-text">M Farrel Rabiultsani U A</p>
                             </div>
                             <div class="col-sm 6 text-center">
-                                <img src="/assets/Farrel.svg">
+                                <img src="/assets/Farrel.svg" class="img-fluid">
                             </div>
                         </div>
                         <div class="row">
@@ -228,7 +239,7 @@
                                 <p class="team-text">Raditya Atmaja Satria</p>
                             </div>
                             <div class="col-sm 6 text-center">
-                                <img src="/assets/Raditya.svg">
+                                <img src="/assets/Raditya.svg" class="img-fluid">
                             </div>
                         </div>
                         </div>
@@ -239,9 +250,30 @@
 
         <!-- Bottom Card -->
         <footer>
-            <section id="Social Media">
-                <div class="container bubble">
-                    
+            <section id="Bottom Card" class="mx-4">
+                <div class="container outer-bubble p-5">
+                    <!-- Tagline -->
+                    <div class="row">
+                        <!-- Title -->
+                        <div class="col-sm-12 col-md-6">
+                            <h1>Smart ID</h1>
+                            <h2>Manage your documents</h2>
+                            <h2>the smart way</h2>
+                        </div>
+                        <!-- Our Company and Services -->
+                        <div class="col-sm-12 col-md-3">
+                            <h2>Our Company</h2>
+                            <h2>Services</h2>
+                        </div>
+                        <!-- Social Media -->
+                        <div class="col-sm-12 col-md-3">
+                            <h2>Stay Connected</h2>
+                        </div>
+                    </div>
+                    <!-- Copyright -->
+                    <div class="rows">
+                        <p>© 2022 Smart ID. All Rights Reserved.</p>
+                    </div>
                 </div>
             </section>
         </footer>
