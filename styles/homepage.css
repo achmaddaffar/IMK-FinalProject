@@ -15,11 +15,15 @@ body {
 
 main {
     margin-top: 150px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 section {
     margin-top: 50px;
+}
+
+label {
+    color: #000000;
 }
 
 .outer-bubble {
@@ -150,4 +154,23 @@ input {
     font-family: "Comfortaa";
     font-size: 20px;
     color: #FFFFFF;
+}
+
+.bottom-title {
+    font-family: "Iceland";
+    font-size: 75px;
+}
+
+.button-description {
+    font-family: "Comfortaa";
+}
+
+.company-title {
+    font-family: "Comfortaa";
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+.company-text {
+    font-family: "Comfortaa";
 }
