@@ -17,10 +17,31 @@ p {
     margin: 0;
 }
 
+label {
+    color: #000000;
+}
+
+.navbar-brand {
+    font-family: "Iceland";
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: -0.07em;
+    background: conic-gradient(from 92.25deg at 34.62% 69.18%, rgba(173, 218, 252, 0.992424) -76.11deg, #8E93DC 28.4deg, rgba(95, 152, 234, 0.99544) 74.88deg, rgba(173, 218, 252, 0.992424) 283.89deg, #8E93DC 388.4deg);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+    font-family: "Lexend Deca";
+    font-size: 17.5px;
+    line-height: 20px;
+    color: #000000;
+}
+
 .container{
     width: 75%;
-    margin-top:25vh;
-    margin-bottom: 25vh;
+    margin-top:20vh;
+    margin-bottom: 17.5vh;
     /* padding: 10px; */
     box-shadow: 0 3px 20px rgba(0, 0, 0, 5);
     border-radius: 20px;
